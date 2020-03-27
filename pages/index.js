@@ -1,4 +1,4 @@
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import FlipText from "../components/FlipText";
 import Footer from "../components/Footer";
 import Headshot from "../components/Headshot";
