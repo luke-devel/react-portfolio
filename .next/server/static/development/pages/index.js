@@ -289,21 +289,21 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function Headshot() {
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("div", {
-    class: "container",
+    className: "container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
   }, __jsx("div", {
-    class: "row",
+    className: "row",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
   }, __jsx("div", {
-    class: "col-12",
+    className: "col-12",
     style: {
       display: "flex",
       justifyContent: "center",
@@ -328,6 +328,72 @@ function Headshot() {
     },
     __self: this
   })))));
+}
+
+/***/ }),
+
+/***/ "./components/Navbar.js":
+/*!******************************!*\
+  !*** ./components/Navbar.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Navbar; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\luke\\Development\\next-js\\react-portfolio\\components\\Navbar.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+function Navbar() {
+  let fontStyle = {
+    textAlign: "center",
+    textTransform: "uppercase",
+    color: "#000000",
+    marginTop: "10px",
+    padding: "10px",
+    fontSize: "30px",
+    marginBottom: "10px",
+    fontWeight: "bold"
+  };
+  return __jsx("nav", {
+    className: "navbar navbar-expand-lg navbar-light bg-dark",
+    style: {
+      margin: "auto"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, __jsx("ul", {
+    className: "nav col-xs-4 navbar-nav mx-auto",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "nav-link",
+    href: "/",
+    style: fontStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, "Portfolio"), __jsx("a", {
+    className: "nav-link",
+    href: "contact",
+    style: fontStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, "Contact")));
 }
 
 /***/ }),
@@ -406,7 +472,7 @@ function Projects() {
     },
     __self: this
   }, __jsx("div", {
-    className: "col-6",
+    className: "col-md-6 col-sm-12 col-xs-12",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31
@@ -427,7 +493,7 @@ function Projects() {
     },
     __self: this
   })), __jsx("div", {
-    className: "col-6",
+    className: "col-md-6 col-sm-12 col-xs-12",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 46
@@ -440,7 +506,7 @@ function Projects() {
       description: "App uses next.js and React to allow a user to search a Spotify artist by URL, URI, or ID. Puppeteer is used on serverside next.js to scrape the Artist information and display it for the user using React as the frontend framework.",
       liveSite: "https://spotify-artist-info.herokuapp.com/",
       githubRepo: "https://github.com/luke-ols0/nextjs-spotify-id",
-      height: "250px"
+      height: "320px"
     },
     __source: {
       fileName: _jsxFileName,
@@ -634,30 +700,31 @@ function SingleProject({
       lineNumber: 34
     },
     __self: this
-  })), __jsx("h1", {
+  }), __jsx("h1", {
     style: {
       fontSize: "15px",
-      fontWeight: "bold"
+      fontWeight: "bold",
+      color: "black"
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 38
     },
     __self: this
-  }, "Live Site")), __jsx("div", {
+  }, "Live Site"))), __jsx("div", {
     className: "col-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 46
     },
     __self: this
   }, __jsx("a", {
-    href: "https://github.com/luke-ols0",
+    href: SingleProject.githubRepo,
     rel: "noopener noreferrer",
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 47
     },
     __self: this
   }, __jsx("i", {
@@ -669,96 +736,31 @@ function SingleProject({
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 52
     },
     __self: this
-  })), __jsx("h1", {
+  }), __jsx("h1", {
     style: {
       fontSize: "15px",
-      fontWeight: "bold"
+      fontWeight: "bold",
+      color: "black"
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 56
     },
     __self: this
-  }, "GitHub Repo"))), __jsx("p", {
+  }, "GitHub Repo")))), __jsx("p", {
     style: {
       marginTop: "10px",
       fontSize: "25px"
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 65
     },
     __self: this
   }, SingleProject.description));
-}
-
-/***/ }),
-
-/***/ "./components/navbar.js":
-/*!******************************!*\
-  !*** ./components/navbar.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Navbar; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\Users\\luke\\Development\\next-js\\react-portfolio\\components\\navbar.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-function Navbar() {
-  let fontStyle = {
-    textAlign: "center",
-    textTransform: "uppercase",
-    color: "#000000",
-    marginTop: "10px",
-    padding: "10px",
-    fontSize: "30px",
-    marginBottom: "10px",
-    fontWeight: "bold"
-  };
-  return __jsx("nav", {
-    className: "navbar navbar-expand-lg navbar-light bg-dark",
-    style: {
-      margin: "auto"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, __jsx("ul", {
-    className: "nav col-xs-4 navbar-nav mx-auto",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "nav-link",
-    href: "/",
-    style: fontStyle,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, "Portfolio"), __jsx("a", {
-    className: "nav-link",
-    href: "contact",
-    style: fontStyle,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, "Contact")));
 }
 
 /***/ }),
@@ -775,7 +777,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Index; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/navbar */ "./components/navbar.js");
+/* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Navbar */ "./components/Navbar.js");
 /* harmony import */ var _components_FlipText__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/FlipText */ "./components/FlipText.js");
 /* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
 /* harmony import */ var _components_Headshot__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Headshot */ "./components/Headshot.js");
@@ -791,7 +793,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 function Index() {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_navbar__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_Navbar__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11

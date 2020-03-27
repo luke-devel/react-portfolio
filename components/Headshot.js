@@ -3,10 +3,10 @@ import png from "../assets/images/headshot.png";
 export default function Headshot() {
   return (
     <>
-      <div class="container">
-        <div class="row">
+      <div className="container">
+        <div className="row">
           <div
-            class="col-12"
+            className="col-12"
             style={{
               display: "flex",
               justifyContent: "center",

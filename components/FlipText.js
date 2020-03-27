@@ -3,10 +3,10 @@ import Flip from "react-reveal/Flip";
 export default function FlipText({ text }) {
   return (
     <div>
-      <div class="container">
-        <div class="row">
+      <div className="container">
+        <div className="row">
           <div
-            class="col-12"
+            className="col-12"
             style={{
               display: "flex",
               justifyContent: "center",
