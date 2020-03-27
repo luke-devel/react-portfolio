@@ -35,14 +35,17 @@ export default function SingleProject({ SingleProject }) {
               class="fas fa-satellite-dish"
               style={{ color: "#000000", fontSize: "2em", padding: "10px" }}
             ></i>
+            <h1
+              style={{ fontSize: "15px", fontWeight: "bold", color: "black" }}
+            >
+              Live Site
+            </h1>
           </a>
-
-          <h1 style={{ fontSize: "15px", fontWeight: "bold" }}>Live Site</h1>
         </div>
 
         <div className="col-6">
           <a
-            href="https://github.com/luke-ols0"
+            href={SingleProject.githubRepo}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -50,9 +53,12 @@ export default function SingleProject({ SingleProject }) {
               class="fab fa-github"
               style={{ color: "#000000", fontSize: "2em", padding: "10px" }}
             ></i>
+            <h1
+              style={{ fontSize: "15px", fontWeight: "bold", color: "black" }}
+            >
+              GitHub Repo
+            </h1>
           </a>
-
-          <h1 style={{ fontSize: "15px", fontWeight: "bold" }}>GitHub Repo</h1>
         </div>
       </div>
 
