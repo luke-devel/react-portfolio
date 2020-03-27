@@ -1,38 +1,28 @@
 export default function Navbar() {
+  let fontStyle = {
+    textAlign: "center",
+    textTransform: "uppercase",
+    color: "#000000",
+    marginTop: "10px",
+    padding: "10px",
+    fontSize: "30px",
+    marginBottom: "10px",
+    fontWeight: "bold"
+  };
+
   return (
     <nav
       class="navbar navbar-expand-lg navbar-light bg-dark"
       style={{ margin: "auto" }}
     >
-      <ul class="nav navbar-nav navbar-right menu">
-        <a class="nav-link" href="">
-          About
-        </a>
-        <a class="nav-link" href="portfolio">
+      <ul class="nav col-xs-4 navbar-nav mx-auto">
+        <a class="nav-link" href="/" style={fontStyle}>
           Portfolio
         </a>
-        <a class="nav-link" href="contact">
+        <a class="nav-link" href="contact" style={fontStyle}>
           Contact
         </a>
       </ul>
     </nav>
-
-    /* <ul class="navbar-nav text ml-auto" style={{ margin: "auto" }}>
-<li class="nav-item">
-  <a class="nav-link" href="#">
-    ABOUT
-  </a>
-</li>
-<li class="nav-item">
-  <a class="nav-link" href="#">
-    PORTFOLIO
-  </a>
-</li>
-<li class="nav-item">
-  <a class="nav-link" href="#">
-    CONTACT
-  </a>
-</li>
-</ul> */
   );
 }

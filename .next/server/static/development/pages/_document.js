@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1101,22 +1101,42 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
         lineNumber: 13
       },
       __self: this
-    })), __jsx("body", {
+    }), __jsx("link", {
+      rel: "stylesheet",
+      href: "../node_modules/@fortawesome/fontawesome-free/css/all.css",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15
+        lineNumber: 19
+      },
+      __self: this
+    }), __jsx("link", {
+      href: "https://fonts.googleapis.com/css?family=Roboto&display=swap",
+      rel: "stylesheet",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23
+      },
+      __self: this
+    })), __jsx("body", {
+      style: {
+        fontFamily: "Roboto",
+        color: "black"
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28
       },
       __self: this
     }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16
+        lineNumber: 29
       },
       __self: this
     }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 30
       },
       __self: this
     })));
@@ -1128,7 +1148,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
 
 /***/ }),
 
-/***/ 0:
+/***/ 1:
 /*!*********************************************!*\
   !*** multi private-next-pages/_document.js ***!
   \*********************************************/
