@@ -12,14 +12,14 @@ export default function Navbar() {
 
   return (
     <nav
-      class="navbar navbar-expand-lg navbar-light bg-dark"
+      className="navbar navbar-expand-lg navbar-light bg-dark"
       style={{ margin: "auto" }}
     >
-      <ul class="nav col-xs-4 navbar-nav mx-auto">
-        <a class="nav-link" href="/" style={fontStyle}>
+      <ul className="nav col-xs-4 navbar-nav mx-auto">
+        <a className="nav-link" href="/" style={fontStyle}>
           Portfolio
         </a>
-        <a class="nav-link" href="contact" style={fontStyle}>
+        <a className="nav-link" href="contact" style={fontStyle}>
           Contact
         </a>
       </ul>

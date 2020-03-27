@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -574,7 +574,16 @@ function SingleProject({
       lineNumber: 7
     },
     __self: this
-  }, SingleProject.name), __jsx("img", {
+  }, SingleProject.name), __jsx("a", {
+    href: SingleProject.liveSite,
+    rel: "noopener noreferrer",
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, __jsx("img", {
     src: SingleProject.picture,
     alt: SingleProject.name,
     style: {
@@ -584,24 +593,24 @@ function SingleProject({
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 13
     },
     __self: this
-  })))), __jsx("div", {
+  }))))), __jsx("div", {
     className: "row",
     style: {
       marginTop: "20px"
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 27
     },
     __self: this
   }, __jsx("div", {
     className: "col-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 28
     },
     __self: this
   }, __jsx("a", {
@@ -610,7 +619,7 @@ function SingleProject({
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 29
     },
     __self: this
   }, __jsx("i", {
@@ -622,7 +631,7 @@ function SingleProject({
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 34
     },
     __self: this
   })), __jsx("h1", {
@@ -632,14 +641,14 @@ function SingleProject({
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 40
     },
     __self: this
   }, "Live Site")), __jsx("div", {
     className: "col-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 43
     },
     __self: this
   }, __jsx("a", {
@@ -648,7 +657,7 @@ function SingleProject({
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 44
     },
     __self: this
   }, __jsx("i", {
@@ -660,7 +669,7 @@ function SingleProject({
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 49
     },
     __self: this
   })), __jsx("h1", {
@@ -670,7 +679,7 @@ function SingleProject({
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 55
     },
     __self: this
   }, "GitHub Repo"))), __jsx("p", {
@@ -680,7 +689,7 @@ function SingleProject({
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 59
     },
     __self: this
   }, SingleProject.description));
@@ -715,7 +724,7 @@ function Navbar() {
     fontWeight: "bold"
   };
   return __jsx("nav", {
-    class: "navbar navbar-expand-lg navbar-light bg-dark",
+    className: "navbar navbar-expand-lg navbar-light bg-dark",
     style: {
       margin: "auto"
     },
@@ -725,14 +734,14 @@ function Navbar() {
     },
     __self: this
   }, __jsx("ul", {
-    class: "nav col-xs-4 navbar-nav mx-auto",
+    className: "nav col-xs-4 navbar-nav mx-auto",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: this
   }, __jsx("a", {
-    class: "nav-link",
+    className: "nav-link",
     href: "/",
     style: fontStyle,
     __source: {
@@ -741,7 +750,7 @@ function Navbar() {
     },
     __self: this
   }, "Portfolio"), __jsx("a", {
-    class: "nav-link",
+    className: "nav-link",
     href: "contact",
     style: fontStyle,
     __source: {
@@ -858,7 +867,7 @@ function Index() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

@@ -5,15 +5,21 @@ export default function SingleProject({ SingleProject }) {
         <div className="row">
           <div className="col-12">
             <h1 style={{ fontWeight: "bold" }}>{SingleProject.name}</h1>
-            <img
-              src={SingleProject.picture}
-              alt={SingleProject.name}
-              style={{
-                height: SingleProject.height,
-                border: "5px solid black",
-                marginTop: "10px"
-              }}
-            />
+            <a
+              href={SingleProject.liveSite}
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                src={SingleProject.picture}
+                alt={SingleProject.name}
+                style={{
+                  height: SingleProject.height,
+                  border: "5px solid black",
+                  marginTop: "10px"
+                }}
+              />
+            </a>
           </div>
         </div>
       </div>
