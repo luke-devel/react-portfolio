@@ -28,7 +28,7 @@ export default function Projects() {
 
         <div className="container">
           <div className="row">
-            <div className="col-6">
+            <div className="col-md-6 col-sm-12 col-xs-12">
               <SingleProject
                 SingleProject={{
                   name: "Spotify Genre Map",
@@ -43,7 +43,7 @@ export default function Projects() {
               />
             </div>
 
-            <div className="col-6">
+            <div className="col-md-6 col-sm-12 col-xs-12">
               <SingleProject
                 SingleProject={{
                   name: "Spotify Artist Info",
