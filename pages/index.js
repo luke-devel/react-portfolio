@@ -24,9 +24,9 @@ export default function Index() {
         >
           <Headshot />
           <FlipText text={{ word: "Luke Olson" }} />
-          <p style={{ fontSize: "25px" }}>
+          <p style={{ fontSize: "25px", fontWeight: "bold" }}>
             HTML/CSS | Bootstrap | JavaScript, C++, Java | NodeJS | React |
-            Next.js | MySQL | Sequelize
+            Next.js | MySQL | Sequelize | Web Scraping
           </p>
           <QuickLinks />
         </header>
